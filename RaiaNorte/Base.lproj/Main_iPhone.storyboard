@@ -16,20 +16,111 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="INA-xd-pVU">
-                                <rect key="frame" x="0.0" y="118" width="320" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="INA-xd-pVU">
+                                <rect key="frame" x="0.0" y="78" width="320" height="300"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="wuo-BG-rxP"/>
+                                </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEu-JQ-N3R">
+                                <rect key="frame" x="20" y="518" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="zRL-wM-SRp"/>
+                                </constraints>
+                                <state key="normal" title="KITE-SURF">
+                                    <color key="titleColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJc-D9-2Rh">
+                                <rect key="frame" x="119" y="518" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="STAND-UP">
+                                    <color key="titleColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pP-SF-6EI">
+                                <rect key="frame" x="218" y="518" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SLACKLINE">
+                                    <color key="titleColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Obg-kx-ORX" kind="modal" id="fmQ-Xs-TLi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9pP-SF-6EI" firstAttribute="leading" secondItem="cJc-D9-2Rh" secondAttribute="trailing" constant="17" id="BIU-ad-L36"/>
+                            <constraint firstItem="cJc-D9-2Rh" firstAttribute="baseline" secondItem="9pP-SF-6EI" secondAttribute="baseline" id="Bpv-qR-agD"/>
+                            <constraint firstAttribute="trailing" secondItem="INA-xd-pVU" secondAttribute="trailing" id="FC1-Nl-6P0"/>
+                            <constraint firstItem="INA-xd-pVU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="58" id="XOc-0U-uD5"/>
+                            <constraint firstItem="INA-xd-pVU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="aqJ-Xg-glE"/>
+                            <constraint firstItem="cJc-D9-2Rh" firstAttribute="leading" secondItem="PEu-JQ-N3R" secondAttribute="trailing" constant="17" id="btm-DU-3oK"/>
+                            <constraint firstItem="cJc-D9-2Rh" firstAttribute="centerX" secondItem="INA-xd-pVU" secondAttribute="centerX" id="jzc-GF-DCf"/>
+                            <constraint firstItem="PEu-JQ-N3R" firstAttribute="baseline" secondItem="cJc-D9-2Rh" secondAttribute="baseline" id="nhe-zB-JnL"/>
+                            <constraint firstItem="PEu-JQ-N3R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="rN2-zb-Mn2"/>
+                            <constraint firstAttribute="bottom" secondItem="PEu-JQ-N3R" secondAttribute="bottom" constant="20" symbolic="YES" id="tm3-dF-8hK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-339" y="-1692"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b7P-VS-6oI">
+            <objects>
+                <viewController id="Obg-kx-ORX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bbK-Tu-mLu"/>
+                        <viewControllerLayoutGuide type="bottom" id="rRV-BW-7ng"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cbc-d2-Pmc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="y7M-EA-eUQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Slackline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1L-wA-bGH">
+                                <rect key="frame" x="61" y="20" width="198" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="n04-Ts-hax">
+                                <rect key="frame" x="20" y="68" width="280" height="396"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Slacklining é uma prática em equilíbrio que normalmente usa uma fita de nylon esticada entre dois pontos de ancoragem. Slacklining é diferente de andar na corda bamba em que a linha não é mantida rigidamente tensa (embora seja ainda sob alguma tensão), é uma tensão mais dinâmica, para que possibilite e saltos como um trampolim longo e estreito. A linha de tensão pode ser ajustada para se adequar ao utilizador e diferentes tipos de correias podem ser usados ​​para obter uma variedade de feitos. A linha em si é plana, devido à natureza das correias, mantendo assim o pé do slacker e a fita sem rolamento, como seria o caso com uma corda comum. A natureza dinâmica da linha permite truques impressionantes e acrobacias.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mail.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6b-Ej-vc0">
+                                <rect key="frame" x="130" y="488" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ana-cc-NJt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="-1692"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background.jpg" width="374" height="500"/>
         <image name="logo.jpg" width="960" height="900"/>
+        <image name="mail.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
