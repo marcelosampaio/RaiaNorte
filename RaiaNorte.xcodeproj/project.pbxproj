@@ -22,6 +22,7 @@
 		9C20D4401900360B000B4918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D41F1900360A000B4918 /* UIKit.framework */; };
 		9C20D4481900360B000B4918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C20D4461900360B000B4918 /* InfoPlist.strings */; };
 		9C20D44A1900360B000B4918 /* RaiaNorteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20D4491900360B000B4918 /* RaiaNorteTests.m */; };
+		9C8D4171190037CF00F72FAD /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C8D4170190037CF00F72FAD /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9C20D4451900360B000B4918 /* RaiaNorteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiaNorteTests-Info.plist"; sourceTree = "<group>"; };
 		9C20D4471900360B000B4918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C20D4491900360B000B4918 /* RaiaNorteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiaNorteTests.m; sourceTree = "<group>"; };
+		9C8D4170190037CF00F72FAD /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		9C20D4221900360A000B4918 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C8D416F190037A800F72FAD /* Images */,
 				9C20D4231900360A000B4918 /* RaiaNorte-Info.plist */,
 				9C20D4241900360A000B4918 /* InfoPlist.strings */,
 				9C20D4271900360A000B4918 /* main.m */,
@@ -153,6 +156,14 @@
 				9C20D4461900360B000B4918 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C8D416F190037A800F72FAD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D4170190037CF00F72FAD /* logo.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C20D4321900360A000B4918 /* Main_iPad.storyboard in Resources */,
+				9C8D4171190037CF00F72FAD /* logo.jpg in Resources */,
 				9C20D4371900360B000B4918 /* Images.xcassets in Resources */,
 				9C20D42F1900360A000B4918 /* Main_iPhone.storyboard in Resources */,
 				9C20D4261900360A000B4918 /* InfoPlist.strings in Resources */,
@@ -470,6 +482,7 @@
 				9C20D44F1900360B000B4918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C20D4501900360B000B4918 /* Build configuration list for PBXNativeTarget "RaiaNorteTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +491,7 @@
 				9C20D4521900360B000B4918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
