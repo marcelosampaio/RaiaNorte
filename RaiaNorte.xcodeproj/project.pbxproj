@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C20D41C1900360A000B4918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D41B19003609000B4918 /* Foundation.framework */; };
+		9C20D41E1900360A000B4918 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D41D1900360A000B4918 /* CoreGraphics.framework */; };
+		9C20D4201900360A000B4918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D41F1900360A000B4918 /* UIKit.framework */; };
+		9C20D4261900360A000B4918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C20D4241900360A000B4918 /* InfoPlist.strings */; };
+		9C20D4281900360A000B4918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20D4271900360A000B4918 /* main.m */; };
+		9C20D42C1900360A000B4918 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20D42B1900360A000B4918 /* AppDelegate.m */; };
+		9C20D42F1900360A000B4918 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C20D42D1900360A000B4918 /* Main_iPhone.storyboard */; };
+		9C20D4321900360A000B4918 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C20D4301900360A000B4918 /* Main_iPad.storyboard */; };
+		9C20D4351900360A000B4918 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20D4341900360A000B4918 /* ViewController.m */; };
+		9C20D4371900360B000B4918 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C20D4361900360B000B4918 /* Images.xcassets */; };
+		9C20D43E1900360B000B4918 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D43D1900360B000B4918 /* XCTest.framework */; };
+		9C20D43F1900360B000B4918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D41B19003609000B4918 /* Foundation.framework */; };
+		9C20D4401900360B000B4918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C20D41F1900360A000B4918 /* UIKit.framework */; };
+		9C20D4481900360B000B4918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C20D4461900360B000B4918 /* InfoPlist.strings */; };
+		9C20D44A1900360B000B4918 /* RaiaNorteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20D4491900360B000B4918 /* RaiaNorteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C20D4411900360B000B4918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C20D41019003609000B4918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C20D41719003609000B4918;
+			remoteInfo = RaiaNorte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C20D41819003609000B4918 /* RaiaNorte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiaNorte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C20D41B19003609000B4918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C20D41D1900360A000B4918 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C20D41F1900360A000B4918 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C20D4231900360A000B4918 /* RaiaNorte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiaNorte-Info.plist"; sourceTree = "<group>"; };
+		9C20D4251900360A000B4918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C20D4271900360A000B4918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C20D4291900360A000B4918 /* RaiaNorte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaiaNorte-Prefix.pch"; sourceTree = "<group>"; };
+		9C20D42A1900360A000B4918 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C20D42B1900360A000B4918 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C20D42E1900360A000B4918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9C20D4311900360A000B4918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9C20D4331900360A000B4918 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C20D4341900360A000B4918 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C20D4361900360B000B4918 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C20D43C1900360B000B4918 /* RaiaNorteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiaNorteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C20D43D1900360B000B4918 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9C20D4451900360B000B4918 /* RaiaNorteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiaNorteTests-Info.plist"; sourceTree = "<group>"; };
+		9C20D4471900360B000B4918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C20D4491900360B000B4918 /* RaiaNorteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiaNorteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C20D41519003609000B4918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20D41E1900360A000B4918 /* CoreGraphics.framework in Frameworks */,
+				9C20D4201900360A000B4918 /* UIKit.framework in Frameworks */,
+				9C20D41C1900360A000B4918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C20D4391900360B000B4918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20D43E1900360B000B4918 /* XCTest.framework in Frameworks */,
+				9C20D4401900360B000B4918 /* UIKit.framework in Frameworks */,
+				9C20D43F1900360B000B4918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C20D40F19003609000B4918 = {
+			isa = PBXGroup;
+			children = (
+				9C20D4211900360A000B4918 /* RaiaNorte */,
+				9C20D4431900360B000B4918 /* RaiaNorteTests */,
+				9C20D41A19003609000B4918 /* Frameworks */,
+				9C20D41919003609000B4918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C20D41919003609000B4918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C20D41819003609000B4918 /* RaiaNorte.app */,
+				9C20D43C1900360B000B4918 /* RaiaNorteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C20D41A19003609000B4918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C20D41B19003609000B4918 /* Foundation.framework */,
+				9C20D41D1900360A000B4918 /* CoreGraphics.framework */,
+				9C20D41F1900360A000B4918 /* UIKit.framework */,
+				9C20D43D1900360B000B4918 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C20D4211900360A000B4918 /* RaiaNorte */ = {
+			isa = PBXGroup;
+			children = (
+				9C20D42A1900360A000B4918 /* AppDelegate.h */,
+				9C20D42B1900360A000B4918 /* AppDelegate.m */,
+				9C20D42D1900360A000B4918 /* Main_iPhone.storyboard */,
+				9C20D4301900360A000B4918 /* Main_iPad.storyboard */,
+				9C20D4331900360A000B4918 /* ViewController.h */,
+				9C20D4341900360A000B4918 /* ViewController.m */,
+				9C20D4361900360B000B4918 /* Images.xcassets */,
+				9C20D4221900360A000B4918 /* Supporting Files */,
+			);
+			path = RaiaNorte;
+			sourceTree = "<group>";
+		};
+		9C20D4221900360A000B4918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C20D4231900360A000B4918 /* RaiaNorte-Info.plist */,
+				9C20D4241900360A000B4918 /* InfoPlist.strings */,
+				9C20D4271900360A000B4918 /* main.m */,
+				9C20D4291900360A000B4918 /* RaiaNorte-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C20D4431900360B000B4918 /* RaiaNorteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C20D4491900360B000B4918 /* RaiaNorteTests.m */,
+				9C20D4441900360B000B4918 /* Supporting Files */,
+			);
+			path = RaiaNorteTests;
+			sourceTree = "<group>";
+		};
+		9C20D4441900360B000B4918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C20D4451900360B000B4918 /* RaiaNorteTests-Info.plist */,
+				9C20D4461900360B000B4918 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C20D41719003609000B4918 /* RaiaNorte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C20D44D1900360B000B4918 /* Build configuration list for PBXNativeTarget "RaiaNorte" */;
+			buildPhases = (
+				9C20D41419003609000B4918 /* Sources */,
+				9C20D41519003609000B4918 /* Frameworks */,
+				9C20D41619003609000B4918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaiaNorte;
+			productName = RaiaNorte;
+			productReference = 9C20D41819003609000B4918 /* RaiaNorte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C20D43B1900360B000B4918 /* RaiaNorteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C20D4501900360B000B4918 /* Build configuration list for PBXNativeTarget "RaiaNorteTests" */;
+			buildPhases = (
+				9C20D4381900360B000B4918 /* Sources */,
+				9C20D4391900360B000B4918 /* Frameworks */,
+				9C20D43A1900360B000B4918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C20D4421900360B000B4918 /* PBXTargetDependency */,
+			);
+			name = RaiaNorteTests;
+			productName = RaiaNorteTests;
+			productReference = 9C20D43C1900360B000B4918 /* RaiaNorteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C20D41019003609000B4918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Marcelo Sampaio";
+				TargetAttributes = {
+					9C20D43B1900360B000B4918 = {
+						TestTargetID = 9C20D41719003609000B4918;
+					};
+				};
+			};
+			buildConfigurationList = 9C20D41319003609000B4918 /* Build configuration list for PBXProject "RaiaNorte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C20D40F19003609000B4918;
+			productRefGroup = 9C20D41919003609000B4918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C20D41719003609000B4918 /* RaiaNorte */,
+				9C20D43B1900360B000B4918 /* RaiaNorteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C20D41619003609000B4918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20D4321900360A000B4918 /* Main_iPad.storyboard in Resources */,
+				9C20D4371900360B000B4918 /* Images.xcassets in Resources */,
+				9C20D42F1900360A000B4918 /* Main_iPhone.storyboard in Resources */,
+				9C20D4261900360A000B4918 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C20D43A1900360B000B4918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20D4481900360B000B4918 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C20D41419003609000B4918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20D4351900360A000B4918 /* ViewController.m in Sources */,
+				9C20D42C1900360A000B4918 /* AppDelegate.m in Sources */,
+				9C20D4281900360A000B4918 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C20D4381900360B000B4918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20D44A1900360B000B4918 /* RaiaNorteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C20D4421900360B000B4918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C20D41719003609000B4918 /* RaiaNorte */;
+			targetProxy = 9C20D4411900360B000B4918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C20D4241900360A000B4918 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C20D4251900360A000B4918 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C20D42D1900360A000B4918 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C20D42E1900360A000B4918 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9C20D4301900360A000B4918 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C20D4311900360A000B4918 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9C20D4461900360B000B4918 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C20D4471900360B000B4918 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C20D44B1900360B000B4918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C20D44C1900360B000B4918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C20D44E1900360B000B4918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiaNorte/RaiaNorte-Prefix.pch";
+				INFOPLIST_FILE = "RaiaNorte/RaiaNorte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C20D44F1900360B000B4918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiaNorte/RaiaNorte-Prefix.pch";
+				INFOPLIST_FILE = "RaiaNorte/RaiaNorte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9C20D4511900360B000B4918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RaiaNorte.app/RaiaNorte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiaNorte/RaiaNorte-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RaiaNorteTests/RaiaNorteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9C20D4521900360B000B4918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RaiaNorte.app/RaiaNorte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiaNorte/RaiaNorte-Prefix.pch";
+				INFOPLIST_FILE = "RaiaNorteTests/RaiaNorteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C20D41319003609000B4918 /* Build configuration list for PBXProject "RaiaNorte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C20D44B1900360B000B4918 /* Debug */,
+				9C20D44C1900360B000B4918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C20D44D1900360B000B4918 /* Build configuration list for PBXNativeTarget "RaiaNorte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C20D44E1900360B000B4918 /* Debug */,
+				9C20D44F1900360B000B4918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C20D4501900360B000B4918 /* Build configuration list for PBXNativeTarget "RaiaNorteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C20D4511900360B000B4918 /* Debug */,
+				9C20D4521900360B000B4918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C20D41019003609000B4918 /* Project object */;
+}
