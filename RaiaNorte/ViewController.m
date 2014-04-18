@@ -20,12 +20,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    NSLog(@"initial commit");
-    
+
 }
 
 
+
+#pragma mark - Status Bar
+-(BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
 
 #pragma mark - Memomy Warning
 - (void)didReceiveMemoryWarning
